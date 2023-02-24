@@ -40,5 +40,29 @@ El repositorio de Maven (o repositorio central) tiene una estructura que permite
 
 Para crear un arquetipo básico para desarrollar un proyecto con maven, disponemos del siguiente comando:\
 ```
-mvn archetype:create -DgroupId=edu.eci.cvds -DartifactId=Patterns -Dpackage=edu.eci.cvds.patterns -archetypeArtifactId=maven-archetype-quickstart
+mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -Dpackage=edu.eci.cvds.patterns -DarchetypeArtifactId=maven-archetype-quickstart
+```
+Ejecutamos el comando en mi caso en el cmd de windows y confirmamos
+![image](https://user-images.githubusercontent.com/89365336/221253354-e5873e9b-2b29-4098-8cf8-5214c4831a65.png)
+Se creo un nuevo directorio Patterns, cambio de directorio usando el comando:
+```
+cd Patterns
+```
+Alli ejecutamos el comando
+```
+tree /f
+```
+![image](https://user-images.githubusercontent.com/89365336/221257117-3f2a1443-af4e-4e0b-8011-253cbd19a55c.png)
+
+
+## Algunas configuraciones en el proyecto 
+
+Editamos el archivo pom.xml para agregar las propiedades
+![image](https://user-images.githubusercontent.com/89365336/221259201-32dc41f0-b356-40bb-983a-80e85669f45d.png)
+
+## Compilar y ejecutar
+
+Ejecutamos el comando:
+```
+mvn package
 ```
