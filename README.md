@@ -37,3 +37,8 @@ El repositorio de Maven (o repositorio central) tiene una estructura que permite
 
 
 ## Crear un proyecto con Maven
+
+Para crear un arquetipo básico para desarrollar un proyecto con maven, disponemos del siguiente comando:\
+```
+mvn archetype:create -DgroupId=edu.eci.cvds -DartifactId=Patterns -Dpackage=edu.eci.cvds.patterns -archetypeArtifactId=maven-archetype-quickstart
+```
