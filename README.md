@@ -66,3 +66,4 @@ Ejecutamos el comando:
 ```
 mvn package
 ```
+![image](https://user-images.githubusercontent.com/89365336/221322132-e364ff38-47b1-40af-ad1c-ad9d47099b74.png)
