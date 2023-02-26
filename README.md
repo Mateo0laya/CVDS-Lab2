@@ -67,3 +67,8 @@ Ejecutamos el comando:
 mvn package
 ```
 ![image](https://user-images.githubusercontent.com/89365336/221322132-e364ff38-47b1-40af-ad1c-ad9d47099b74.png)
+
+El comando `mvn package` sirve para construir el proyecto maeven y crear los archivos JAR y WAR
+A continuación presento una imagen con los 20 comandos mas usados en Maeven:
+![Maven-Commands-Cheat-Sheet](https://user-images.githubusercontent.com/89365336/221438935-59c2feec-93fb-4a39-8645-2d29a89db0a4.png)
+
